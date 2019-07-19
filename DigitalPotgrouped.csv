@@ -1,0 +1,29 @@
+"Source:","/home/jakub/KiCAD/DigitalPot/DigitalPot.sch"
+"Date:","Fri 19 Jul 2019 18:05:50 BST"
+"Tool:","Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","7"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Alt. Order Code","Alt. Supplier","Manufacturer","Note","Order Code","Package","Part Number","Supplier"
+"","","C1","4u7","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","Tayo Yuden","4.7μF/16V 0603 X5R capacitor","2112741","0603","EMK107ABJ475KA-T","Farnell"
+"","","C2","100n","Device:C","Capacitor_SMD:C_0603_1608Metric","~","302010138","OPL Seeed","Multicomp","100nF/50V X7R 0603 ceramic capacitor","1759122","0603","MC0603B104K500","Farnell"
+"","","H1","2.2mm","Mechanical:MountingHole","MountingHole:MountingHole_2.2mm_M2","~","","","","","","","",""
+"","","J1","2-Way Pin Header","Connector:Conn_01x02_Female","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","","","Multicomp","2-way 2.54mm pitch pin header","1593412","2.54mm pitch","2211S-02G","Farnell"
+"","","J2","5-Way Pin Header","Connector:Conn_01x05_Female","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","5-way 2.54mm pitch pin header","1593414","2.54mm pitch","Multicomp","Multicomp"
+"","","J3","3-Way Pin Header","Connector:Conn_01x03_Female","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","","","Multicomp","3-way 2.54mm pitch pin header","1593411","2.54mm pitch","2211S-03G","Farnell"
+"","","U1","MCP4161-104","Potentiometer_Digital:MCP41100","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf","","","Microchip","8-bit single SPI digital POT with non-volatile memory","579-MCP4161-104E/SN","SO-8","MCP4161-104E/SN","Mouser"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Alt. Order Code","Alt. Supplier","Manufacturer","Note","Order Code","Package","Part Number","Supplier"
+"1","1","C1","4u7","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","Tayo Yuden","4.7μF/16V 0603 X5R capacitor","2112741","0603","EMK107ABJ475KA-T","Farnell"
+"2","1","C2","100n","Device:C","Capacitor_SMD:C_0603_1608Metric","~","302010138","OPL Seeed","Multicomp","100nF/50V X7R 0603 ceramic capacitor","1759122","0603","MC0603B104K500","Farnell"
+"3","1","H1","2.2mm","Mechanical:MountingHole","MountingHole:MountingHole_2.2mm_M2","~","","","","","","","",""
+"4","1","J1","2-Way Pin Header","Connector:Conn_01x02_Female","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~","","","Multicomp","2-way 2.54mm pitch pin header","1593412","2.54mm pitch","2211S-02G","Farnell"
+"5","1","J2","5-Way Pin Header","Connector:Conn_01x05_Female","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","~","","","","5-way 2.54mm pitch pin header","1593414","2.54mm pitch","Multicomp","Multicomp"
+"6","1","J3","3-Way Pin Header","Connector:Conn_01x03_Female","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","","","Multicomp","3-way 2.54mm pitch pin header","1593411","2.54mm pitch","2211S-03G","Farnell"
+"7","1","U1","MCP4161-104","Potentiometer_Digital:MCP41100","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf","","","Microchip","8-bit single SPI digital POT with non-volatile memory","579-MCP4161-104E/SN","SO-8","MCP4161-104E/SN","Mouser"

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jakub/KiCAD/DigitalPot/DigitalPot.sch</source>
+    <date>Fri 19 Jul 2019 18:05:50 BST</date>
+    <tool>Eeschema 5.1.2-f72e74a~84~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DigitalPot.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>5-Way Pin Header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Note">5-way 2.54mm pitch pin header</field>
+        <field name="Order Code">1593414</field>
+        <field name="Package">2.54mm pitch</field>
+        <field name="Part Number">Multicomp</field>
+        <field name="Supplier">Multicomp</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D31C509</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP4161-104</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Microchip</field>
+        <field name="Note">8-bit single SPI digital POT with non-volatile memory</field>
+        <field name="Order Code">579-MCP4161-104E/SN</field>
+        <field name="Package">SO-8</field>
+        <field name="Part Number">MCP4161-104E/SN</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="Potentiometer_Digital" part="MCP41100" description="Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D31FA69</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>3-Way Pin Header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">3-way 2.54mm pitch pin header</field>
+        <field name="Order Code">1593411</field>
+        <field name="Package">2.54mm pitch</field>
+        <field name="Part Number">2211S-03G</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D323834</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Tayo Yuden</field>
+        <field name="Note">4.7μF/16V 0603 X5R capacitor</field>
+        <field name="Order Code">2112741</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">EMK107ABJ475KA-T</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D324C2D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>2-Way Pin Header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">2-way 2.54mm pitch pin header</field>
+        <field name="Order Code">1593412</field>
+        <field name="Package">2.54mm pitch</field>
+        <field name="Part Number">2211S-02G</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D327A1D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Alt. Order Code">302010138</field>
+        <field name="Alt. Supplier">OPL Seeed</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
+        <field name="Order Code">1759122</field>
+        <field name="Package">0603</field>
+        <field name="Part Number">MC0603B104K500</field>
+        <field name="Supplier">Farnell</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D322140</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>2.2mm</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D32DB55</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Female">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Potentiometer_Digital" part="MCP41010">
+      <aliases>
+        <alias>MCP41050</alias>
+        <alias>MCP41100</alias>
+      </aliases>
+      <description>Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP41010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="SCK" type="passive"/>
+        <pin num="3" name="SI" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="PA0" type="passive"/>
+        <pin num="6" name="PW0" type="passive"/>
+        <pin num="7" name="PB0" type="passive"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Potentiometer_Digital">
+      <uri>/usr/share/kicad/library/Potentiometer_Digital.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="/PB">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="3" name="/PW">
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="4" name="/PA">
+      <node ref="U1" pin="5"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="6" name="/SDI">
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="7" name="/SCK">
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="8" name="/~CS">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>
